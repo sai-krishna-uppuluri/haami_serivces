@@ -29,21 +29,21 @@ function AboutSection() {
                 </p>
                 <p className={aboutStyles.description}>
                     At Haami, we believe that technology can transform the construction
-                    industry. That's why we're a tech-powered construction company, using
+                    industry. That is why we are a tech-powered construction company, using
                     the latest software and hardware to streamline processes, reduce costs,
                     and improve project outcomes. Our goal is to help you save time and money 
                     while ensuring that your dream house becomes a reality.
                 </p>
                 <p className={aboutStyles.description}>
                     Our team has worked on numerous residential construction projects in Vijayawada,
-                    earning a reputation for excellence and reliability. We're committed to delivering
+                    earning a reputation for excellence and reliability. We are committed to delivering
                     projects on time and within budget, without compromising on quality. As a top construction
                     company in Vijayawada, we understand the unique challenges of the local market and are 
                     well-equipped to deliver projects that meet your expectations.
                 </p>
                 <p className={aboutStyles.description}>
                     Thank you for considering Haami for your next residential house construction project in
-                    Vijayawada. We're confident that our one-stop-solution and tech-powered approach will
+                    Vijayawada. We are confident that our one-stop-solution and tech-powered approach will
                     help you achieve your dream house. Contact us today to learn more about our services!
                 </p>
             </div>
