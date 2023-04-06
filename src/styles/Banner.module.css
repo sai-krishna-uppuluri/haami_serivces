@@ -1,0 +1,51 @@
+.bannerSectionContainer{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.75) , rgba(0,0,0,0.75) ), url("../../public/home-screen.jpg");
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    right: 0;
+    top: 0;
+    background-position: no repeat;
+}
+
+.bannerHeaderContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.headText{
+    color: #fff;
+    font-size: 62px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.pText{
+    color: goldenrod; 
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.headText:hover {
+    color: gold;
+}
+
+
+
+
+@media screen and (max-width : 650px) {
+    .headText {
+        font-size: 42px;
+    }   
+    
+    .pText {
+        font-size: 22px;
+    }
+}

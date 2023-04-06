@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75) , rgba(0,0,0,0.75)) ,  url("../../public/bg-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerContainer{
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url('../../public/bg-image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.heading{
+    color: #fff;
+    font-size: 46px;
+    font-family: bree serif;
+    font-weight: bold;
+}
+
+.sectionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+ 
+}
+
+.aboutUsSection{
+    padding: 2rem;
+}
+
+.headText{
+    font-family: bree serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.description{
+    font-family: bree serif;
+    font-size: 22px;
+    margin: 3rem 0;
+    color: #fff;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.ContactBtn{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 12px;
+    background-color: orange;
+    color: #000;
+    font-size: 22px;
+    font-family: bree serif;
+    margin-bottom: 3rem;
+
+    cursor: pointer;
+}
+
+@media screen and (max-width : 650px) {
+    .sectionContainer {
+        margin: 0.5rem;
+    }
+}

@@ -1,0 +1,93 @@
+
+.procedureContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1e1d;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background-image: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.2)), url('../../public/bg-4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.headingProcedure {
+    font-size: 42px;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.headingProcedure:hover {
+    color: gold;
+}
+
+
+.innerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+.procedureInnerContainer{
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+    background-color: #fff;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1.5rem;
+    background-color: #b59928;
+}
+
+
+.eachProcedureContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.icon{
+    color: #fff;
+}
+
+.procedureText{
+    font-family: bree serif;
+    font-size: 32px;
+    color: #fff;
+    letter-spacing: 0.2px;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.procedureInnerContainer:hover {
+    background-color: gold;
+    color: #000000;
+}
+
+
+@media screen and (max-width : 650px) {
+    .innerContainer {
+        flex-direction: column;
+    }    
+
+    .procedureInnerContainer {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width : 1150px) {
+    .innerContainer {
+        flex-wrap: wrap;
+    }
+}

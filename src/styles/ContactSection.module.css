@@ -1,0 +1,151 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerContainer{
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url('../../public/contact-bg-image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.heading{
+    color: #fff;
+    font-size: 46px;
+    font-family: bree serif;
+    font-weight: bold;
+}
+
+.contactContainer{
+    display: flex;
+    margin: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addressContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 30vw;
+  
+}
+
+.roundContainer{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eachAddress{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addressContainerDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.addressHead{
+    font-size: 22px;
+    font-family: bree serif;
+    color: #000;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.addressText{
+    font-size: 18px;
+    font-family: bree serif;
+    color: #000;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+.formValues{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputElement{
+    width: 300px;
+    height: 30px;
+    margin: 1.2rem;
+}
+
+.textAreaElement{
+    width: 300px;
+}
+
+.submitBtn{
+    background-color: orange;
+    height: 35px;
+    width: 130px;
+    border-radius: 12px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media screen and (max-width : 650px) {
+    .contactContainer {
+        flex-direction: column;
+        margin: unset;
+    }
+
+    .addressContainer {
+        width: unset;
+        margin-bottom: 2rem;
+    }
+
+    .roundContainer {
+        height: 70px;
+        width: 70px;
+        border-radius: 70px;
+    }
+
+    .eachAddress {
+        justify-content: center;
+    }
+
+    .addressContainerDetails {
+        margin-left: 0.5rem;
+
+    }
+
+    .formContainer {
+        flex: 0;
+    }
+
+}
