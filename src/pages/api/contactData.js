@@ -10,9 +10,9 @@ export default async function handler(req, res) {
    // console.log(req.body)
 
    if  (req.method === "POST") {
-      const data = JSON(req.body);
+      const data = req.body
 
-      console.log(data)
+      // console.log(data)
    
 
    try {
