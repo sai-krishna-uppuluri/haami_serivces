@@ -1,8 +1,9 @@
 import React from 'react'
 import footer from '../styles/Footer.module.css'
 
-import {BsInstagram , BsLinkedin} from 'react-icons/bs'
+import {BsInstagram , BsFacebook} from 'react-icons/bs'
 import FormSection from './FormSection'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -15,18 +16,17 @@ const Footer = () => {
             <p className={footer.footerText}> Vijayawada </p>
         </div>
         <div className={footer.socialMediaContainer}>
-            <BsInstagram size = {30} className={footer.socialIcon}/>
-            <BsLinkedin size={30} className={footer.socialIcon}/>
+            <Link href='https://www.instagram.com/haami_constructions/' target='_blank'><BsInstagram size = {30} className={footer.socialIcon}/> </Link>
+            <Link href='https://www.facebook.com/haami.constructions' target='_blank'><BsFacebook size={30} className={footer.socialIcon}/></Link>
         </div>
         <div className={footer.officeEmailContainer}>
-            <p className={footer.footerText}> email : u.sai.chowdary@gmail.com </p>
-            <p className={footer.footerText}> 9866627816 </p>
-        </div>
-        <div className= {footer.contactUs}>
-          <h1 className={footer.footerText}> Contact Us </h1>
-          <FormSection />
+            <p className={footer.footerText}> email : haamiconstructions@gmail.com </p>
+            <p className={footer.footerText}> 9949060148 </p>
         </div>
       </div>
+      <div className= {footer.contactUs}>
+          <FormSection />
+        </div>
     </div>
   )
 }

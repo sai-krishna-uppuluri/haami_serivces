@@ -20,7 +20,7 @@ function ContactSection() {
                     </div>
                     <div className={contactStyles.addressContainerDetails}>
                         <h1 className={contactStyles.addressHead}> Phone Number </h1>
-                        <p className={contactStyles.addressText}> 9866627816 </p>
+                        <p className={contactStyles.addressText}> 9949060148 </p>
                     </div>
                 </div>
                 <div className={contactStyles.eachAddress}>
@@ -29,7 +29,7 @@ function ContactSection() {
                     </div>
                     <div className={contactStyles.addressContainerDetails}>
                         <h1 className={contactStyles.addressHead}> Email  </h1>
-                        <p className={contactStyles.addressText}> u.sai.chowdary@gmail.com </p>
+                        <p className={contactStyles.addressText}> haamiconstructions@gmail.com</p>
                     </div>
                 </div>
                 <div className={contactStyles.eachAddress}>

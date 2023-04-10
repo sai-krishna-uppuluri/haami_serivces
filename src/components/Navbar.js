@@ -1,9 +1,11 @@
 import React from 'react'
 import navStyles  from '../styles/Navbar.module.css'
+import logo from '../../public/H__1_-removebg-preview.png'
 import {GiHamburgerMenu} from 'react-icons/gi'
  import {MdClose} from 'react-icons/md'
  import Link from 'next/link'
 import { useState } from 'react'
+import Image from 'next/image'
 
 
 const Navbar = () => {
@@ -17,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div className= {navStyles.navbarContainer}>
-            <h1 className={navStyles.navHeadText}> Haami </h1>
+            <Image src={logo}  alt = "haami" className={navStyles.logo}/>
         <div className={navStyles.navbarLargeDeviceContainer}>
             <ul className={navStyles.menuListContainer}>
                 <Link className={navStyles.navLink} href = "/"><li className={navStyles.menuTextLarge}> Home </li> </Link>

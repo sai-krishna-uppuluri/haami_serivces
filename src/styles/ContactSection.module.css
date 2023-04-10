@@ -118,6 +118,13 @@
     font-size: 16px;
 }
 
+
+.formHead{
+    color: #fff;
+    font-family: bree serif;
+    font-weight: bold;
+}
+
 @media screen and (max-width : 650px) {
     .contactContainer {
         flex-direction: column;

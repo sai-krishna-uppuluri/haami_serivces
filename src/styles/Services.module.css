@@ -4,15 +4,19 @@
     justify-content: space-between;
     padding: 4rem;
     flex-wrap: wrap;
-    background-color: #fff;
+   background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url('../../public//services-bg.jpg');
+   background-position: right;
+   background-repeat: no-repeat;
+   background-size: cover;
     align-items: center;
+
 }
 
 .serviceHeadText{
     font-family: bree serif;
     font-size: 42px;
-    color: #000;
-    font-weight: 500;
+    color: #fff;
+    font-weight: bold;
     margin-bottom: 2rem;
     font-style: italic;
 }
@@ -32,7 +36,6 @@
     justify-content: center;
     align-items: center;
     margin: 1rem ;
-    width: 250px;
     
 }
 
@@ -44,16 +47,16 @@
     padding: 0.5rem;
 }
 
-.eachServiceContainer h1 {
-    font-size: 18px;
+.eachServiceText{
+    font-size: 28px;
     text-align: center;
-    letter-spacing: 1px;
-    font-family: roboto;
-    font-weight: 500;
-
+    font-family: bree serif;
+    font-weight: bolder;
+    color: #fff;
+    font-style: italic;
 }
 
-.eachServiceContainer h1:hover {
+.eachServiceText:hover {
     color: #e8bd31;
 }
 
