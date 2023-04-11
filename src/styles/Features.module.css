@@ -1,0 +1,223 @@
+.sectionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.sectionInnerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.featureContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc((100% - 20vw - 50px) / 3);
+    margin-bottom: 2rem;
+}
+
+.eachFeatureContainer{
+    height: 150px;
+    width:350px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.eachFeatureTextContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.imageContainer{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.engineerImage{
+    height: 70vh;
+    width: 20vw;
+    object-fit: cover;
+}
+
+.featureRightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc((100% - 20vw - 50px) /3);
+    margin-bottom: 2rem;
+}
+
+.eachFeatureRightContainer{
+    height: 150px;
+    width: 350px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.eachFeatureTextRightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem;
+    align-items: flex-start;
+}
+
+.eachFeatureHead{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.eachFeatureDesc{
+    font-family: open serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+.line {
+    margin: 0.2rem;
+    width: 100%;
+    border: 1px solid #FFB600;
+}
+
+@media screen and (max-width : 650px) {
+    .imageContainer {
+        display: none;
+
+    }  
+    .sectionContainer {
+        padding: 30px;
+    }  
+
+    .sectionInnerContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: unset;
+        padding: unset;
+    }
+
+    .featureContainer {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        padding: unset;
+        margin: unset;
+    }
+
+    .eachFeatureContainer {
+        margin: 1rem;
+        margin-top: 2rem;
+        margin-right: unset;
+        height: 130px;
+        width: 80vw;
+        margin-bottom: 0;
+    }
+
+    .featureRightContainer {
+       margin: unset;
+       justify-content: center;
+       align-items: center;
+       margin-left: 1rem;
+    }
+
+    .eachFeatureRightContainer {
+        width: 80vw;
+        height: 130px;
+        margin-left: unset;
+        margin-top: unset;
+        margin: 1rem;
+    }
+
+    .eachFeatureHead{
+        font-size: 16px;
+    }
+
+    .eachFeatureDesc {
+        font-size: 12px;
+    }
+
+    
+}
+
+
+@media screen and (min-width : 650px) and (max-width : 1250px) {
+    .imageContainer {
+        display: none;
+
+    }  
+    .sectionContainer {
+        padding: 30px;
+    }  
+
+    .sectionInnerContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: unset;
+        padding: unset;
+    }
+
+    .featureContainer {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        padding: unset;
+        margin: unset;
+    }
+
+    .eachFeatureContainer {
+        margin: 1rem;
+        margin-top: 2rem;
+        margin-right: unset;
+        height: 130px;
+        width: 80vw;
+        margin-bottom: 0;
+    }
+
+    .featureRightContainer {
+       margin: unset;
+       justify-content: center;
+       align-items: center;
+       margin-left: 1rem;
+    }
+
+    .eachFeatureRightContainer {
+        width: 80vw;
+        height: 130px;
+        margin-left: unset;
+        margin-top: unset;
+        margin: 1rem;
+    }
+
+    .eachFeatureHead{
+        font-size: 22px;
+    }
+
+    .eachFeatureDesc {
+        font-size: 16px;
+    }
+    .line {
+        display: none;
+    }
+}

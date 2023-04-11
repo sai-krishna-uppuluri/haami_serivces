@@ -1,14 +1,18 @@
 import React from 'react'
 import footer from '../styles/Footer.module.css'
-
+import NewStyles from '../styles/NewService.module.css'
 import {BsInstagram , BsFacebook} from 'react-icons/bs'
 import FormSection from './FormSection'
 import Link from 'next/link'
 
 const Footer = () => {
   return (
+    <>
+    <div className={NewStyles.orangeSection}>
+    <h1 className={NewStyles.mainHeadingTextOrange}> All Your Construction Needs Under One Roof</h1>
+  </div>
     <div className={footer.footerContainer}>
-      <h1 className={footer.headingFooter}> Find Us On</h1>
+      <h1 className={footer.headingFooter}> Find Us At</h1>
       <div className={footer.footerInnerContainer}>
         <div className={footer.addressContainer}>
             <p className={footer.footerText}>6-249, Sri Hari Gardens </p>
@@ -28,6 +32,7 @@ const Footer = () => {
           <FormSection />
         </div>
     </div>
+    </>
   )
 }
 

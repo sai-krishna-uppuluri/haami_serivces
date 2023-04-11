@@ -5,6 +5,7 @@ import bannerStyles from  '../styles/Banner.module.css'
 
 function Banner() {
   return (
+
     <div className={bannerStyles.bannerSectionContainer}>
       <div className={bannerStyles.bannerHeaderContainer}>
         <h1 className={bannerStyles.headText}> Hami Constructions </h1>

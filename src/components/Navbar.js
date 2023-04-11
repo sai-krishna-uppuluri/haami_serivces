@@ -16,10 +16,11 @@ const Navbar = () => {
         setToggle(true)
     }
 
+  //  <Image src={logo}  alt = "haami" className={navStyles.logo}/>
 
   return (
     <div className= {navStyles.navbarContainer}>
-            <Image src={logo}  alt = "haami" className={navStyles.logo}/>
+          <h1 className={navStyles.mainHeadText}> Haami </h1>
         <div className={navStyles.navbarLargeDeviceContainer}>
             <ul className={navStyles.menuListContainer}>
                 <Link className={navStyles.navLink} href = "/"><li className={navStyles.menuTextLarge}> Home </li> </Link>

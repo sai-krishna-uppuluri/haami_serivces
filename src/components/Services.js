@@ -4,6 +4,7 @@ import plan from '../../public/plan.jpg'
 import house from '../../public/residential-house.jpg'
 import material from '../../public/material.jpg'
 import Image from 'next/image'
+import bannerStyles from '../styles/Banner.module.css'
  import interior from '../../public/Interior-image.jpg'
 import Link from 'next/link'
 // import {Navigate} from 'react-router-dom'
@@ -12,6 +13,10 @@ import Link from 'next/link'
 function Services() {
 
   return (
+    <>
+    <div className={bannerStyles.orangeSection}>
+    <h1> We Care For You </h1>
+  </div>
     <div className={ServiceStyles.servicesContainer}>
         <h1 className={ServiceStyles.serviceHeadText}> Haami Services </h1>
         <div className={ServiceStyles.serviceInnerContainer}>
@@ -46,6 +51,7 @@ function Services() {
         </div>
         </div>
     </div>
+    </>
   )
 }
 

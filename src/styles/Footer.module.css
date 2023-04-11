@@ -8,11 +8,12 @@
 }
 
 .headingFooter{
-    font-family: roboto;
+    font-family: sans-serif;
     font-size: 62px;
     font-weight: 500;
     font-style: italic;
     color: #fff;
+    text-align: center;
 }
 
 .footerInnerContainer{
@@ -52,7 +53,7 @@
 }
 
 .footerText{
-    font-family: roboto;
+    font-family: open serif;
     font-size: 18px;
     font-weight: 500;
     color: #fff;

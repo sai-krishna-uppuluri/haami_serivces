@@ -8,10 +8,13 @@
     height: 80px;
     width: 100vw;
     padding: 2rem;
-    position: fixed;
+    position: sticky;
     background-color: black;
 }
 
+.logoContainer{
+    top: 0;
+}
 
 .navLink {
     text-decoration: none;
@@ -19,10 +22,10 @@
 
 
 .logo {
-    margin-top: 30px;
-  width: 500px;
-  height:250px;
-
+   width: 500px;
+   height: 250px;
+   margin-top: 20px;
+   margin-left: 0;
 }
 
 .navHeadText{
@@ -31,6 +34,11 @@
     color: orange;
 }
 
+.mainHeadText{
+    color: open serif;
+    font-size: 42px;
+    color: #FFB600;
+}
 
 .navbarLargeDeviceContainer{
     display: none;

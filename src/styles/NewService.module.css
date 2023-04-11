@@ -1,0 +1,151 @@
+.orangeSection{
+    width: 100vw;
+    height: 130px;
+    background-color: #FFB600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    padding: 20px;
+}
+
+.mainHeadingTextOrange{
+    font-family: sans-serif;
+    color: black;
+    font-size: 42px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.servicesContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 90vw;
+}
+
+.eachInnerContainer{
+    height: 200px;
+    width: 25vw;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.eachInnerContainer:hover {
+    transition: all 0.6s ease-in;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.TextContainer{
+    margin: 30px;
+    text-align: start;
+ 
+}
+
+.mainHeadingText{
+    font-family: sans-serif;
+    color: black;
+    font-size: 42px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.headingText{
+    font-family: sans-serif;
+    color: black;
+    font-size: 32px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.line {
+    margin: 0.2rem;
+    border: 1px solid #FFB600;
+}
+
+.paraText{
+    font-family: open serif;
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width : 650px)  {
+    .servicesContainer {
+        padding: 20px;
+    } 
+    
+    .innerContainer {
+        padding: 10px;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eachInnerContainer {
+        width: 80vw;
+    }
+
+    .headingText {
+        font-size: 22px;
+    }
+
+    .paraText {
+        font-size: 12px;
+    }
+
+    .mainHeadingTextOrange {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width : 900px) and (min-width : 650px)  {
+    .servicesContainer {
+        padding: 20px;
+    } 
+    
+    .innerContainer {
+        padding: 10px;
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eachInnerContainer {
+        width: 30vw;
+    }
+
+    .headingText {
+        font-size: 28px;
+
+    }
+
+    .paraText {
+        font-size: 16px;
+    }
+}

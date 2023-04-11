@@ -2,11 +2,11 @@
     display: flex;
     background-image: linear-gradient(rgba(0,0,0,0.75) , rgba(0,0,0,0.75) ), url("../../public/home-screen.jpg");
     height: 100vh;
+    opacity: 1;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-size: cover;
-    right: 0;
-    top: 0;
     background-position: no repeat;
 }
 
@@ -23,6 +23,7 @@
     font-style: italic;
     font-weight: 500;
     letter-spacing: 1px;
+    font-family: Open Sans;
 }
 
 .pText{
@@ -49,3 +50,4 @@
         font-size: 22px;
     }
 }
+
