@@ -8,7 +8,7 @@ function Banner() {
 
     <div className={bannerStyles.bannerSectionContainer}>
       <div className={bannerStyles.bannerHeaderContainer}>
-        <h1 className={bannerStyles.headText}> Hami Constructions </h1>
+        <h1 className={bannerStyles.headText}> Haami Constructions </h1>
         <p className={bannerStyles.pText}> A One-Stop Solution for your Dream House </p>
       </div>
     </div>

@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 }
 
 .bannerContainer{
@@ -27,22 +28,23 @@
 .contactContainer{
     display: flex;
     margin: 3rem;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    width: 90vw;
+    padding: 50px;
 }
 
 .addressContainer{
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items: center;
+    justify-content:flex-start;
+    align-items: flex-start;
     width: 30vw;
-  
 }
 
 .roundContainer{
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     border-radius: 100px;
     border: 1px solid #000;
     display: flex;
@@ -56,19 +58,20 @@
     margin-top: 1rem;
     justify-content: space-between;
     align-items: center;
+    text-align: start;
 }
 
 .addressContainerDetails{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-left: 3rem;
 }
 
 .addressHead{
     font-size: 22px;
-    font-family: bree serif;
+    font-family: open serif;
     color: #000;
     font-weight: bold;
     margin-left: 1rem;
@@ -76,7 +79,7 @@
 
 .addressText{
     font-size: 18px;
-    font-family: bree serif;
+    font-family: sans-serif;
     color: #000;
     font-weight: 500;
     margin-left: 1rem;

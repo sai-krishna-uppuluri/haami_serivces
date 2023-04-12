@@ -43,6 +43,20 @@ function NewServices() {
             <p className={NewStyles.paraText}> We Will Your Dream House right from Scratch to Finish</p>
           </div>
         </div>
+        <div className={NewStyles.eachInnerContainer}>
+          <div className={NewStyles.TextContainer}>
+            <h1 className={NewStyles.headingText}> Project Estimations  </h1>
+            <hr className={NewStyles.line}/>
+            <p className={NewStyles.paraText}> We Will Your Dream House right from Scratch to Finish</p>
+          </div>
+        </div>
+        <div className={NewStyles.eachInnerContainer}>
+          <div className={NewStyles.TextContainer}>
+            <h1 className={NewStyles.headingText}> Home Loan Guidance  </h1>
+            <hr className={NewStyles.line}/>
+            <p className={NewStyles.paraText}> We Will Guide you to get your House Loan. We collaborated with various home loan companies which offer you the best.</p>
+          </div>
+        </div>
       </div>
     </div>
     </div>
