@@ -1,0 +1,149 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-image: url('../../public/bg-2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.blogHeading{
+    font-family: open serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.blogsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.blogsInnerContainer{
+    width: 80vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 25px;
+   margin-top: 50px;
+}
+
+.blogImage{
+    height: 300px;
+    width: 500px;
+}
+
+
+.blogDescriptionContainer{
+    margin-left: 20px;
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.blogTitleHeadText{
+    font-family: open serif;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.blogParaText{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogBtn{
+    color: #fff;
+    font-size: 22px;
+    font-family: sans-serif;
+    border-radius: 12px;
+    background-color: orange;
+    height: 35px;
+    width: 120px;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+    
+}
+
+.linkComponent{
+    text-decoration: none;
+}
+
+@media screen and (max-width : 680px) {
+    .blogsInnerContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blogImage {
+        width: 300px;
+        height: 300px;
+    }
+
+    .blogDescriptionContainer{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+    .blogTitleHeadText{
+        font-size: 18px;
+        margin: 0;
+        margin-top: 0.5rem;
+    }
+    
+    .blogParaText{
+        font-size: 12px;
+        margin: 0;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (min-width : 670px) and (max-width : 1250px) {
+    .blogsInnerContainer {
+        display: flex;
+    }
+
+    .blogImage {
+        width: 400px;
+        height: 300px;
+    }
+
+    .blogDescriptionContainer{
+        width: 100%;
+        margin-left: 0.5rem;
+        margin-right: 0;
+        padding: 0;
+    }
+    .blogTitleHeadText{
+        font-size: 18px;
+        margin: 0;
+        margin-top: 0.5rem;
+    }
+    
+    .blogParaText{
+        font-size: 12px;
+        margin: 0;
+        margin-top: 0.5rem;
+    }
+}
